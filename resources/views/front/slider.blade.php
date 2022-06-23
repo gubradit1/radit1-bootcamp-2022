@@ -100,20 +100,20 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="AirPods_Pro_(1).jpg" style="width:100%">
+  <img src="{{asset('asset/assets/AirPods_Pro_(1).jpg')}}" style="width:100%">
   <div class="text">AirPods</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="macbook-pro-apple-event-2020-dark-background-3072x1906-3278.jpg" style="width:100%">
-  <div class="text">Mac Book</div>
+  <img src="{{asset('asset/assets/apple-watch-series4_09122018_LP_hero.jpg.og.jpg')}}" style="width:100%">
+  <div class="text">Apple Watch</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="apple-watch-series4_09122018_LP_hero.jpg.og.jpg" style="width:100%">
-  <div class="text">Apple Watch</div>
+  <img src="{{asset('asset/assets/macbook-pro-apple-event-2020-dark-background-3072x1906-3278.jpg')}}" style="width:100%">
+  <div class="text">Mac Book</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
